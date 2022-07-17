@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #003333 !important;
+    padding: 20px 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    text-indent: -5000px;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+body {
+    background-color: #003333;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #e6ffff;
+}
+
+h3 {
+    color: #dfecec;
+}
+
+#logo {
+    background: url(../icono/logo.png) no-repeat;
+    height: 80px;
+    width: 80px;
+    text-indent: -5000px;
+}
+
+li {
+    margin: 0 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+li a:hover {
+    color: #80ffff;
+}
+
+#pelicula {
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: white;
+    background-color: #003d3d;
+    border: 0.5px solid #001a1a;
+}
+
+#pelicula p {
+    width: 250px;
+    margin-bottom: 0;
+}
+
+#pelicula a {
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    margin-top: auto;
+}
+
+#btns {
+    width: 200px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#btns a {
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    background-color: #001a1a;
+}
+
+#btns a:hover, #btns button:hover {
+    background-color: #002c2c;
+}
+
+#btns button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    background-color: #001a1a;
+}
+
+#exampleModal {
+    color: black;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#mas {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mas button {
+    margin: 20px 0;
+    width: 300px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.gold {
+    color: rgb(173, 147, 1);
+}
+
+.grey {
+    color: rgb(223, 223, 223);
+}
+
+.green {
+    color: #74ffff;
+}
+
+.red {
+    color: rgb(255, 63, 63);
+}
+
+footer {
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+}
+
+form div.row {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+}
+
+.modal-content{
+    background-color: #324b4b;
+    color: white;
+}
+
+form label {
+    margin: 5px 0 !important;
+}
+
+form input {
+    margin: 8px 0;
+}
+
+/* Pantalla Comentarios */
+#comentarios {
+    background-color: #004848;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#comentarios li {
+    list-style: none;
+}
+
+#no-comentario {
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    margin: 30px 0;
+}
+
+#comentarios a {
+    margin-left: auto;
+    padding: 5px;
+    text-indent: -5000px;
+    display: flex;
+}
